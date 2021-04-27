@@ -222,14 +222,14 @@ client.channels.cache.get(log2).send(` ${member} \` Sunucuya taglı olarak giri�
 
 ////----------------------- TAG TARAMASI KISMI -----------------------\\\\
 
-setInterval(() => {
+/*setInterval(() => {
     const server = client.guilds.cache.get("821504015551430738");
     server.members.cache.forEach(async member => {
         if (member.roles.cache.has(client.config.vipRoles) || member.roles.cache.has(client.config.boosterRoles)) return; //VİP&BOOSTER ROL İD
    
    if(member.user.username.includes("†")){
         member.roles.set(["821706522093420594"]).catch(() => {}) 
-    }
+    }                                                                    //Bu amını siktiğmin şeyini başka botta kullanırsanız bot yavaşlamaz rol verme gibi sorunları olmaz.
 
 
  if (member.user.username.includes("⁵⁸")) {
@@ -237,6 +237,6 @@ setInterval(() => {
         }
 
     })
-}, 60 * 1000)// 60(60 saniye) kısmını değiştirebilirsiniz /*/
+}, 60 * 1000)// 60(60 saniye) kısmını değiştirebilirsiniz */ 
 
-client.login('ODIwOTA0NjI2MDQ3NjgwNTMy.YE79Ag.obCFcNJpdzhYu-gY7tutxsxAL8A')//token
+client.login('sikşş')//token
