@@ -1,6 +1,10 @@
-# Niwrenden Çarptım 
+# Config ve Ayar Eklendi.
 
 # Niwrenin kardeşimin kayıt botu eline sağlık 
 
 
-Güncelleme Yapılıyor...
+Yeni Botu hatasız kullanabilirsiniz.
+
+# Modülleri yüklemek için 
+
+npm i yazmanız yeterlidir.
